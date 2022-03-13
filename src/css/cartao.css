@@ -1,10 +1,11 @@
 .cartao-pokemon {
     display: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 10px;
 }
 
-.cartao-pokemon .cartao-topo {
+.cartao-pokemon .cartao-topo{
+    
     padding: 30px 40px 0;
 }
 
@@ -18,7 +19,7 @@
     opacity: 0.7;
     border-radius: 10px;
     padding: 2px 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .cartao-pokemon .detalhes {
@@ -37,7 +38,7 @@
     max-height: 100%;
 }
 
-.cartao-pokemon .cartao-informacoes {
+.cartao-pokemon .cartao-informacoes { 
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
@@ -47,7 +48,7 @@
     border-bottom-right-radius: 8px;
 }
 
-.cartao-pokemon .cartao-informacoes h3 {
+.cartao-pokemon .cartao-informacoes h3{
     font-size: 20px;
     margin-bottom: 15px;
     border-bottom: 1px solid #6B727A;
@@ -58,7 +59,7 @@
     width: 180px;
 }
 
-.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li{
     border-bottom: 1px solid #C3C4C5;
     padding: 0 0 5px;
     margin-bottom: 5px;
@@ -71,24 +72,30 @@
 
 .tipo-fogo {
     background-color: #ED8A8B;
+    box-shadow: rgba(237, 138, 139, 0.25) 0px 54px 55px, rgba(237, 138, 139, 0.12) 0px -12px 30px, rgba(237, 138, 139, 0.12) 0px 4px 6px, rgba(237, 138, 139, 0.17) 0px 12px 13px, rgba(237, 138, 139, 0.09) 0px -3px 5px;
 }
 
 .tipo-eletrico {
     background-color: #FCC719;
-}
+    box-shadow: rgba(252, 199, 25, 0.25) 0px 54px 55px, rgba(252, 199, 25, 0.12) 0px -12px 30px, rgba(252, 199, 25, 0.12) 0px 4px 6px, rgba(252, 199, 25, 0.17) 0px 12px 13px, rgba(252, 199, 25, 0.09) 0px -3px 5px;
+} 
 
 .tipo-agua {
     background-color: #76BEFE;
+    box-shadow: rgba(118, 190, 254, 0.25) 0px 54px 55px, rgba(118, 190, 254, 0.12) 0px -12px 30px, rgba(118, 190, 254, 0.12) 0px 4px 6px, rgba(118, 190, 254, 0.17) 0px 12px 13px, rgba(118, 190, 254, 0.09) 0px -3px 5px;
 }
 
 .tipo-grama {
     background-color: #49D0B0;
+    box-shadow: rgba(73, 208, 176, 0.25) 0px 54px 55px, rgba(73, 208, 176, 0.12) 0px -12px 30px, rgba(73, 208, 176, 0.12) 0px 4px 6px, rgba(73, 208, 176, 0.17) 0px 12px 13px, rgba(73, 208, 176, 0.09) 0px -3px 5px;
 }
 
-.tipo-trevas {
+.tipo-sombra {
     background-color: #BA68C8;
+    box-shadow: rgba(186, 104, 200, 0.25) 0px 54px 55px, rgba(186, 104, 200, 0.12) 0px -12px 30px, rgba(186, 104, 200, 0.12) 0px 4px 6px, rgba(186, 104, 200, 0.17) 0px 12px 13px, rgba(186, 104, 200, 0.09) 0px -3px 5px;
 }
 
 .tipo-dragao {
-    background-color: #C29791;
+    background-color: #c29791;
+    box-shadow: rgba(194, 151, 145, 0.25) 0px 54px 55px, rgba(194, 151, 145, 0.12) 0px -12px 30px, rgba(194, 151, 145, 0.12) 0px 4px 6px, rgba(194, 151, 145, 0.17) 0px 12px 13px, rgba(194, 151, 145, 0.09) 0px -3px 5px;
 }
